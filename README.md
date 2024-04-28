@@ -1,8 +1,39 @@
-# React + Vite
+# Spadasoft Frontend Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+- React JS
+- Sass
+- Github
+- Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Preview
+
+Preview it live at [Live Preview](https://spadasoft-frontend-assessment.vercel.app/).
+
+## Project Setup
+
+To set up the project, follow these steps:
+
+1. Clone the repository
+2. Install the dependencies by running the following command in the project directory:
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+## Author
+
+[Zuhran Ahmed](https://www.linkedin.com/in/zuhranahmed/)
