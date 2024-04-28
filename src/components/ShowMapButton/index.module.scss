@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.showMapBtn {
+  padding: 10px 11px;
+  border-radius: 4px;
+  border: 1px solid #edf1f6;
+  background-image: url("../../assets/Images/map-button.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  button {
+    outline: none;
+    border: 0;
+    padding: 9px 10px;
+    max-height: 30px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: $color-white;
+    background-color: $color-text-primary;
+    display: grid;
+    place-content: center;
+  }
+}

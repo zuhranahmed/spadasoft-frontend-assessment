@@ -1,0 +1,113 @@
+@import "../../styles/variables";
+
+.venueCard {
+  border-radius: 8px;
+  border: 1px solid #edf1f6;
+  background-color: $color-white;
+
+  .venueCardDetails {
+    padding-block-end: 20px;
+    margin-block-end: 15px;
+    border-block-end: 1px solid #edf1f6;
+
+    .venueImg {
+      width: 50px;
+      aspect-ratio: 1;
+      border-radius: 6px;
+    }
+
+    .venueTitle {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: $color-text-primary;
+      max-width: 60%;
+    }
+
+    .venueType {
+      font-size: 1.2rem;
+      color: $color-text-primary;
+      height: 25px;
+      padding-inline: 8px;
+      border-radius: 4px;
+      background-color: #f2f2f2;
+    }
+
+    .address {
+      font-size: 1.2rem;
+      color: #425466;
+    }
+
+    .flag {
+      width: 18px;
+      height: 12px;
+    }
+  }
+
+  .timeDetails {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+
+    .date {
+      color: #425466;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+
+    .timeslotsGrid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 4px;
+    }
+
+    .timeSlot,
+    .more {
+      border-radius: 4px;
+      padding: 5px 10px;
+      background-color: $color-white;
+      border: 1px solid #edf1f6;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: $color-text-primary;
+      text-align: center;
+    }
+
+    .more {
+      background-color: rgba($color-primary, 15%);
+      color: $color-primary;
+      outline: none;
+      border: 0;
+    }
+
+    .emptyVenueState {
+      padding-block: 20px;
+      border-radius: 5px;
+      border: 1px solid #edf1f6;
+
+      span {
+        color: #0a254059;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.sportType,
+.viewAvenue {
+  height: 28px;
+  border-radius: 50px;
+  padding-inline: 9px;
+  background-color: $color-primary;
+  color: $color-white;
+  font-size: 1.2rem;
+  outline: none;
+  border: 0;
+}
+
+.viewAvenue {
+  font-weight: 500;
+  background-color: initial;
+  color: $color-text-primary;
+  border: 1px solid $color-text-primary;
+  padding-inline: 16px;
+}

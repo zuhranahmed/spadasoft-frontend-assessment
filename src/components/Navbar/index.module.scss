@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.navbar {
+  background-color: $color-white;
+  border-block-end: 1px solid #efeff0;
+  position: sticky;
+  top: 0;
+  left: 0;
+
+  .location {
+    color: #425466;
+
+    span {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  }
+
+  .dashboardBtn {
+    height: 32px;
+    width: 32px;
+    display: grid;
+    place-content: center;
+    background-color: $base-background-color;
+    color: $color-text-primary;
+    border-radius: 6px;
+    border: 1px solid #efeff0;
+    cursor: pointer;
+  }
+
+  .chevronDropdown {
+    width: 16px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #edf1f6;
+    color: #86909f;
+  }
+}

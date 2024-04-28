@@ -1,0 +1,19 @@
+.avatar {
+  width: 32px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #0f2927;
+}
+
+.id {
+  color: #86909f;
+  font-size: 1.2rem;
+}

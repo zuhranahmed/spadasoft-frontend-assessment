@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.search {
+  position: relative;
+  padding: 6px;
+  padding-inline-start: 32px;
+  background-color: var(--search-input-bg, #{$base-background-color});
+  border-radius: var(--search-input-radius, 4px);
+  border: 1px solid #edf1f6;
+  color: var(--search-input-color, #86909f);
+  font-size: 1.2rem;
+  height: var(--search-input-height, 32px);
+  width: var(--search-input-width, 220px);
+
+  &::placeholder {
+    font-size: inherit;
+    color: #86909f;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+  }
+
+  input {
+    border: 0;
+    outline: none;
+    background-color: inherit;
+    width: 100%;
+  }
+}

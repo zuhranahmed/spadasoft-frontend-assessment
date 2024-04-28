@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.venuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.totalResults {
+  font-size: 2rem;
+  font-weight: 700;
+  color: $color-text-primary;
+}
+
+.customSearch {
+  --search-input-height: 40px;
+  --search-input-bg: #{$color-white};
+  --search-input-color: #{$color-text-primary};
+  --search-input-width: 320px;
+  --search-input-radius: 6px;
+}

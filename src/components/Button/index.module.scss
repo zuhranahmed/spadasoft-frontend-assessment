@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.btn {
+  padding: 7px 14px;
+  height: 32px;
+  border-radius: 6px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  &.btnPrimary {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &.btnSecondary {
+    background-color: rgba($color-primary, 15%);
+    color: $color-primary;
+  }
+
+  &.btnPrimaryGradient {
+    background: linear-gradient(99.53deg, #ff5733 0.25%, #fd4c26 46.18%, #fa8d76 97.15%);
+    color: $color-white;
+  }
+
+  &.font12 {
+    font-size: 1.2rem;
+  }
+
+  &.font14 {
+    font-size: 1.4rem;
+  }
+
+  &.regular {
+    font-weight: 400;
+  }
+
+  &.medium {
+    font-weight: 500;
+  }
+
+  &.bold {
+    font-weight: 700;
+  }
+}
